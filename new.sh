@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [ -z "$1" ] ; then
-    echo "Usage: ./run.sh <number>"
+    echo "Usage: ./new.sh <number>"
     exit 1
 fi
 
