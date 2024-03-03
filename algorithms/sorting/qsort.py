@@ -57,4 +57,8 @@ xs = [2,5,1,4,3]
 sort(xs)
 assert(xs == [1,2,3,4,5])
 
+xs = [2,5,1,4,3,-1]
+sort(xs)
+assert(xs == [-1,1,2,3,4,5])
+
 print("All tests passed!")
